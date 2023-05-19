@@ -13,7 +13,7 @@ import streamlit as riki
 # Halaman Hitung Luas dan Keliling Bujursangkar
 #if (selected == 'Menghitung Luas dan Keliling Bujursangkar'):
     #Bujursangkar
- riki.title('Menghitung Luas dan Keliling Bujursangkar')
+ riki.title("Menghitung Luas dan Keliling Bujursangkar")
  riki.write('Menghitung Luas Bujursangkar')
 
  Sisi1 = riki.number_input ('Masukan Nilai Sisi 1', 0.)
