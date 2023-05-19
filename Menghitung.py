@@ -13,26 +13,26 @@ import streamlit as riki
 # Halaman Hitung Luas dan Keliling Bujursangkar
 #if (selected == 'Menghitung Luas dan Keliling Bujursangkar'):
     #Bujursangkar
-    riki.title('Menghitung Luas dan Keliling Bujursangkar')
-    riki.write('Menghitung Luas Bujursangkar')
+ riki.title('Menghitung Luas dan Keliling Bujursangkar')
+ riki.write('Menghitung Luas Bujursangkar')
 
-    Sisi1 = riki.number_input ('Masukan Nilai Sisi 1', 0.)
-    Sisi2 = riki.number_input ('Masukan Nilai Sisi 2', 0.)
-    Luas = riki.button ('Hitung Luas Bujursangkar')
+ Sisi1 = riki.number_input ('Masukan Nilai Sisi 1', 0.)
+ Sisi2 = riki.number_input ('Masukan Nilai Sisi 2', 0.)
+ Luas = riki.button ('Hitung Luas Bujursangkar')
 
-    if Luas :
-        luas = Sisi1 * Sisi2
-        riki.write ('Luas Bujursangkar Adalah = ', luas, 'Betulll :)')
-        riki.success (f'Luas Bujursangkar Adalah = {luas}')
+ if Luas :
+    luas = Sisi1 * Sisi2
+    riki.write ('Luas Bujursangkar Adalah = ', luas, 'Betulll :)')
+    riki.success (f'Luas Bujursangkar Adalah = {luas}')
 
-    riki.write('Menghitung Keliling Bujursangkar')
-    sisi1Keliling = riki.number_input ('Masukan Nilai Sisi', 0.)
-    Keliling = riki.button ('Hitung Keliling Bujursangkar')
+ riki.write('Menghitung Keliling Bujursangkar')
+ sisi1Keliling = riki.number_input ('Masukan Nilai Sisi', 0.)
+ Keliling = riki.button ('Hitung Keliling Bujursangkar')
 
-    if Keliling :
-        keliling = sisi1Keliling * 4
-        riki.write ('Keliling Bujursangkar Adalah = ', keliling, 'Betulll :)')
-        riki.success (f'Keliling Bujursangkar Adalah = {keliling}')
+ if Keliling :
+    keliling = sisi1Keliling * 4
+    riki.write ('Keliling Bujursangkar Adalah = ', keliling, 'Betulll :)')
+    riki.success (f'Keliling Bujursangkar Adalah = {keliling}')
 
 # Halaman Hitung Luas dan Keliling Lingkaran
 #if (selected == 'Menghitung Luas dan Keliling Lingkaran'):
