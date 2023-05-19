@@ -1,17 +1,17 @@
 import streamlit as riki
-from streamlit_option_menu import option_menu
+#from streamlit_option_menu import option_menu
 
 #Navigasi Sidebar
-with riki.sidebar :
-    selected = option_menu ('Menu Menghitung Tugas Ebedded System by Riki',
-    ['Menghitung Luas dan Keliling Bujursangkar',
-    'Menghitung Luas dan Keliling Lingkaran',
-    'Menghitung Arus Listrik',
-    'Menghitung Kecepatan Rata-rata'],
-    default_index=0)
+#with riki.sidebar :
+ #   selected = option_menu ('Menu Menghitung Tugas Ebedded System by Riki',
+  #  ['Menghitung Luas dan Keliling Bujursangkar',
+   # 'Menghitung Luas dan Keliling Lingkaran',
+    #'Menghitung Arus Listrik',
+    #'Menghitung Kecepatan Rata-rata'],
+    #default_index=0)
     
 # Halaman Hitung Luas dan Keliling Bujursangkar
-if (selected == 'Menghitung Luas dan Keliling Bujursangkar'):
+#if (selected == 'Menghitung Luas dan Keliling Bujursangkar'):
     #Bujursangkar
     riki.title('Menghitung Luas dan Keliling Bujursangkar')
     riki.write('Menghitung Luas Bujursangkar')
@@ -35,7 +35,7 @@ if (selected == 'Menghitung Luas dan Keliling Bujursangkar'):
         riki.success (f'Keliling Bujursangkar Adalah = {keliling}')
 
 # Halaman Hitung Luas dan Keliling Lingkaran
-if (selected == 'Menghitung Luas dan Keliling Lingkaran'):
+#if (selected == 'Menghitung Luas dan Keliling Lingkaran'):
     #Lingkaran
     riki.title('Menghitung Luas dan Keliling Lingkaran')
     riki.write('Menghitung Luas Lingkaran')
@@ -57,7 +57,7 @@ if (selected == 'Menghitung Luas dan Keliling Lingkaran'):
         riki.success (f'Keliling Lingkaran Adalah = {diameterLingkaran}')
 
 # Halaman Menghitung Arus Listrik
-if (selected == 'Menghitung Arus Listrik'):
+#if (selected == 'Menghitung Arus Listrik'):
     #Arus Listrik
     riki.title('Menghitung Arus Listrik')
     tegangan = riki.number_input('Masukan Nilai Tegangan', 0.)
@@ -70,7 +70,7 @@ if (selected == 'Menghitung Arus Listrik'):
         riki.success (f'Arus Listrik Adalah = {Arus}')
 
 #Halaman Menghitung Kecepatan Raata-rata
-if (selected == 'Menghitung Kecepatan Rata-rata'):
+#if (selected == 'Menghitung Kecepatan Rata-rata'):
     #Kecepatan Rata-rata
     riki.title('Menghitung Kecepatan Rata-rata')
     jarak = riki.number_input('Masukkan Nilai Jarak', 0.)
