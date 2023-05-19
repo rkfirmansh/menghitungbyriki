@@ -1,5 +1,5 @@
 import streamlit as riki
-from streamlit_option_menu import option_menu
+import option_menu
 with riki.sidebar :
     selected = option_menu ('Menu Menghitung Tugas Ebedded System by Riki',
     ['Menghitung Luas dan Keliling Bujursangkar',
